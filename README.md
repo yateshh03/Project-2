@@ -19,8 +19,10 @@ This project showcases smooth animations, clean UI design, and a seamless experi
 
 ## 📸 Screenshots
 
+💻 Laptop View 
 ### ![💻 Laptop View](./Screenshots/Laptop%20View.png)
 
+📱 Mobile View
 ### ![📱 Mobile View](./Screenshots/Mobile%20View.png)
 
 ## 🌐 Live Demo
