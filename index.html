@@ -1,0 +1,1356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      id="fixed-image"
+      class="w-80 h-1/2 rounded-3xl fixed left-1/2 top-[35%] pointer-events-none z-50 hidden bg-cover bg-center"
+    ></div>
+    <div class="min-h-screen w-full bg-[#0D0D0D]">
+      <div
+        class="page-1 min-h-screen w-full px-4 sm:px-6 lg:px-10 bg-cover bg-center"
+        style="background-image: url(&quot;./Bg2.avif&quot;)"
+      >
+        <!-- NAVBAR -->
+        <nav
+          class="h-[70px] sm:h-[80px] lg:h-[100px] w-full flex items-center justify-between"
+        >
+          <!-- LOGO -->
+          <img class="w-28 sm:w-32 lg:w-auto" src="./Images/logo.png" alt="" />
+
+          <!-- MENU -->
+          <ul
+            class="bg-black/30 backdrop-blur-lg hidden xl:flex shadow-xl items-center justify-between w-1/3 py-3 px-8 rounded-[40px] text-white font-medium text-sm lg:text-base xl:text-lg"
+          >
+            <li><a class="hover:text-lime-300" href="#">Home</a></li>
+            <li><a class="hover:text-lime-300" href="#">Pages</a></li>
+            <li><a class="hover:text-lime-300" href="#">Services</a></li>
+            <li><a class="hover:text-lime-300" href="#">Blog</a></li>
+            <li><a class="hover:text-lime-300" href="#">Contact</a></li>
+          </ul>
+
+          <!-- RIGHT -->
+          <div class="flex items-center gap-4 sm:gap-6 lg:gap-10 text-white">
+            <h3
+              class="hidden sm:block text-sm lg:text-lg font-medium hover:underline cursor-pointer"
+            >
+              +0715-0050-088
+            </h3>
+
+            <button
+              class="bg-(--g-color) hover:bg-lime-600 text-black text-xs sm:text-sm lg:text-base font-bold py-1.5 px-3 sm:py-2 sm:px-4 rounded-full"
+            >
+              Contact Us
+            </button>
+          </div>
+        </nav>
+
+        <!-- HERO -->
+        <section
+          class="relative min-h-[calc(100vh-100px)] w-full flex flex-col items-center justify-center text-white"
+        >
+          <div
+            class="h-full w-full flex flex-col items-center justify-center md:justify-between mt-20 sm:mt-24 lg:mt-28 gap-10"
+          >
+            <!-- TEXT -->
+            <div class="flex items-center flex-col text-center">
+              <div
+                class="border border-gray-300 px-5 sm:px-6 py-1 text-xs sm:text-sm font-medium rounded-xl"
+              >
+                <span class="text-(--g-color)">AI-Accelerated</span> Product
+                Development
+              </div>
+
+              <h1
+                class="font-manrope tracking-tight mt-3 text-center text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[150px] 2xl:text-[170px] leading-16 md:leading-24 lg:leading-32 xl:leading-36"
+              >
+                We Build Brands <br />
+                <span class="text-(--g-color) font-dancing-script"
+                  >Digital</span
+                >
+                Results.
+              </h1>
+            </div>
+
+            <!-- IMAGES -->
+            <div
+              class="w-full flex flex-col-reverse gap-8 md:flex-row items-center md:items-end justify-between"
+            >
+              <div class="hidden md:block w-1/3"></div>
+
+              <!-- CURVE TEXT -->
+              <img class="" src="./Images/curvetext.png" alt="" />
+
+              <!-- HERO IMAGE -->
+              <img
+                class="rounded-2xl sm:rounded-3xl lg:rounded-4xl"
+                src="./Images/hero-image1-1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- FLOATING ELEMENTS -->
+          <img
+            class="moving-img absolute left-2 sm:left-6 lg:left-10 top-[70%] sm:top-3/4 w-0 sm:w-40 md:w-48 lg:w-52 xl:w-60 rotate-12"
+            src="./Images/hero2-3d-1.png"
+            alt=""
+          />
+
+          <img
+            class="moving-img absolute right-4 sm:right-10 lg:right-32 top-24 sm:top-40 lg:top-56 w-0 sm:w-40 md:w-48 lg:w-52 xl:w-60 rotate-12"
+            src="./Images/heroshape1-1.png"
+            alt=""
+          />
+        </section>
+      </div>
+
+      <!-- Page 2  -->
+
+      <div
+        class="page-2 relative min-h-screen w-full flex flex-col px-10 sm:px-20 2xl:px-56 z-50"
+      >
+        <!-- TOP -->
+        <div
+          class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10 pt-16 sm:pt-20"
+        >
+          <!-- LEFT TEXT -->
+          <div>
+            <h3
+              class="flex items-center gap-2 text-white font-medium tracking-tight text-sm sm:text-base"
+            >
+              <div class="h-2 w-2 rounded-full bg-lime-400"></div>
+              ABOUT US
+            </h3>
+
+            <h2
+              class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mt-2 leading-tight"
+            >
+              We blend creativity and <br class="hidden sm:block" />
+              technolgy to build
+              <span class="font-serif text-(--g-color)">
+                <i
+                  >digital <br class="hidden sm:block" />
+                  experiences</i
+                >
+              </span>
+            </h2>
+          </div>
+
+          <!-- RIGHT CIRCLES -->
+          <div class="flex items-center">
+            <div
+              class="flex flex-col gap-1 items-center justify-center h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48 rounded-full bg-[#222222]"
+            >
+              <h3 class="text-sm sm:text-lg text-white">Since</h3>
+              <h3
+                class="text-2xl sm:text-3xl lg:text-5xl text-white font-medium font-mono"
+              >
+                2010
+              </h3>
+            </div>
+
+            <div
+              class="flex flex-col gap-1 items-center justify-center -ml-6 sm:-ml-8 lg:-ml-10 h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48 rounded-full bg-(--g-color)"
+            >
+              <h3 class="text-xs sm:text-sm lg:text-2xl">Digital awards</h3>
+              <h3
+                class="text-2xl sm:text-3xl lg:text-5xl font-medium font-mono"
+              >
+                89+
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTTOM -->
+        <div
+          class="w-full flex-1 py-12 sm:py-16 flex flex-col lg:flex-row gap-10"
+        >
+          <!-- LEFT -->
+          <div
+            class="w-full sm:w-[80%] md:w-[60%] lg:w-1/3 flex flex-col justify-between gap-10"
+          >
+            <!-- Description Text -->
+            <div class="text-gray-400 sm:text-xl xs:text-base">
+              We believe in innovation, collaboration, <br />
+              and data-driven design to help clients <br />
+              stand out in a digital world.
+            </div>
+
+            <!-- Stats Section -->
+            <div>
+              <div
+                class="py-6 border-b-2 border-(--g-color) flex items-end justify-between gap-6 text-white"
+              >
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-mono">
+                  10M<sub>+</sub>
+                </h1>
+                <h3 class="text-sm sm:text-base lg:text-xl">
+                  Raised more <br />
+                  than
+                </h3>
+              </div>
+
+              <!-- Circles -->
+              <div class="flex pt-6 -space-x-3">
+                <div
+                  class="border-2 border-black h-8 w-8 sm:h-10 sm:w-10 overflow-hidden rounded-full shrink-0"
+                >
+                  <img
+                    class="w-full h-full"
+                    src="./Images/about-1-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="border-2 border-black h-8 w-8 sm:h-10 sm:w-10 overflow-hidden rounded-full shrink-0"
+                >
+                  <img
+                    class="w-full h-full"
+                    src="./Images/about-1-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="border-2 border-black h-8 w-8 sm:h-10 sm:w-10 overflow-hidden rounded-full shrink-0"
+                >
+                  <img
+                    class="w-full h-full"
+                    src="./Images/about-1-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="border-2 border-black h-8 w-8 sm:h-10 sm:w-10 overflow-hidden rounded-full shrink-0"
+                >
+                  <img
+                    class="w-full h-full"
+                    src="./Images/about-1-4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="border-2 border-black h-8 w-8 sm:h-10 sm:w-10 bg-white rounded-full flex items-center justify-center text-black text-xs sm:text-sm shrink-0"
+                >
+                  +
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CENTER -->
+
+          <div
+            class="w-full sm:w-full lg:w-1/3 h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] flex items-end p-4 sm:p-6 lg:p-10 rounded-2xl bg-cover bg-center md:bg-"
+            style="background-image: url(&quot;./Images/page2-center.jpg&quot;)"
+          >
+            <div class="bg-(--g-color) rounded-2xl p-4 sm:p-5">
+              <img
+                class="py-2 sm:py-3 w-6 sm:w-8"
+                src="./Images/page2-comma.png"
+                alt=""
+              />
+              <h3 class="text-sm sm:text-base lg:text-lg">
+                True progress is made not in isolation but in partnership—with
+                those who trust us, challenge us, and grow.
+              </h3>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="lg:w-1/3 flex flex-col justify-between gap-10">
+            <div class="flex items-start gap-6 pb-10 border-b border-gray-600">
+              <div
+                class="h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16 shrink-0 rounded-full flex items-center justify-center bg-(--g-color)"
+              >
+                <img src="./Images/page2-icon1.png" alt="" />
+              </div>
+              <div>
+                <h2
+                  class="text-lg sm:text-xl lg:text-2xl text-white font-medium"
+                >
+                  Creative Content & Design
+                </h2>
+                <h4 class="mt-2 text-gray-400 text-sm sm:text-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-6">
+              <div
+                class="h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16 shrink-0 rounded-full flex items-center justify-center bg-(--g-color)"
+              >
+                <img src="./Images/page2-icon2.png" alt="" />
+              </div>
+              <div>
+                <h2
+                  class="text-lg sm:text-xl lg:text-2xl text-white font-medium"
+                >
+                  Creative Content & Design
+                </h2>
+                <h4 class="mt-2 text-gray-400 text-sm sm:text-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+              </div>
+            </div>
+
+            <button
+              class="mt-6 w-fit font-medium rounded-full px-6 sm:px-8 py-3 sm:py-4 bg-(--g-color)"
+            >
+              More About Us
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 3  -->
+      <div
+        class="page-3 relative min-h-screen flex flex-col w-full px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32 2xl:px-56"
+      >
+        <!-- TOP SECTION -->
+        <div
+          class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10 pt-12 sm:pt-16 md:pt-20"
+        >
+          <!-- LEFT TEXT -->
+          <div>
+            <h3
+              class="flex items-center gap-2 text-white font-medium tracking-tight text-xs sm:text-sm md:text-base"
+            >
+              <div class="h-2 w-2 rounded-full bg-lime-400"></div>
+              OUR SERVICE
+            </h3>
+
+            <h2
+              class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-2 leading-tight"
+            >
+              We craft user-focused digital
+              <br class="hidden sm:block" />
+              experiences
+              <span class="font-serif text-(--g-color)">
+                <i>that elevate brands</i>
+              </span>
+            </h2>
+          </div>
+
+          <!-- RIGHT CIRCLE -->
+          <div
+            class="flex items-center justify-start lg:justify-center w-full lg:w-auto"
+          >
+            <div
+              class="flex flex-col gap-1 items-center justify-center h-24 w-24 sm:h-32 sm:w-32 md:h-36 md:w-36 lg:h-40 lg:w-40 xl:h-48 xl:w-48 rounded-full bg-[#222222]"
+            >
+              <h3 class="text-xs sm:text-sm md:text-base text-white">
+                More Services
+              </h3>
+              <h3
+                class="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-medium font-mono"
+              >
+                2010
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- LIST -->
+        <div class="elem-container mt-10 sm:mt-12 md:mt-16 tracking-tight">
+          <!-- ITEM -->
+          <div
+            class="elem w-full h-24 sm:h-28 md:h-32 lg:h-36 xl:h-40 relative border-t border-gray-600 flex items-center justify-between group pr-4 sm:pr-8 md:pr-12 lg:pr-16"
+            data-image="https://images.unsplash.com/photo-1603145733146-ae562a55031e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <!-- OVERLAY -->
+            <div
+              class="overlay h-full w-0 absolute bg-(--g-color) rounded-3xl group-hover:w-full top-0 left-0 transition-all duration-500 ease pointer-events-none"
+            ></div>
+
+            <!-- TEXT -->
+            <div
+              class="flex items-center gap-6 sm:gap-10 md:gap-14 lg:gap-20 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-medium font-manorope relative z-10 group-hover:text-black group-hover:pl-4 sm:group-hover:pl-10 md:group-hover:pl-16 lg:group-hover:pl-20 transition-all duration-300 ease"
+            >
+              <h2>02.</h2>
+              <h2>Social Media Marketing</h2>
+            </div>
+
+            <!-- ICON -->
+            <div
+              class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full relative z-10 flex items-center justify-center group-hover:bg-black transition-all duration-300"
+            >
+              <img
+                class="-rotate-45 group-hover:rotate-0 transition-all duration-500 ease w-4 sm:w-5 md:w-6"
+                src="./Images/arrow-icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="elem w-full h-24 sm:h-28 md:h-32 lg:h-36 xl:h-40 relative border-t border-gray-600 flex items-center justify-between group pr-4 sm:pr-8 md:pr-12 lg:pr-16"
+            data-image="https://images.unsplash.com/photo-1637626129821-92b4da654cf1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <!-- OVERLAY -->
+            <div
+              class="overlay h-full w-0 absolute bg-(--g-color) rounded-3xl group-hover:w-full top-0 left-0 transition-all duration-500 ease pointer-events-none"
+            ></div>
+
+            <!-- TEXT -->
+            <div
+              class="flex items-center gap-6 sm:gap-10 md:gap-14 lg:gap-20 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-medium font-manorope relative z-10 group-hover:text-black group-hover:pl-4 sm:group-hover:pl-10 md:group-hover:pl-16 lg:group-hover:pl-20 transition-all duration-300 ease"
+            >
+              <h2>03.</h2>
+              <h2>Digital Transformation Consulting</h2>
+            </div>
+
+            <!-- ICON -->
+            <div
+              class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full relative z-10 flex items-center justify-center group-hover:bg-black transition-all duration-300"
+            >
+              <img
+                class="-rotate-45 group-hover:rotate-0 transition-all duration-500 ease w-4 sm:w-5 md:w-6"
+                src="./Images/arrow-icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="elem w-full h-24 sm:h-28 md:h-32 lg:h-36 xl:h-40 relative border-t border-gray-600 flex items-center justify-between group pr-4 sm:pr-8 md:pr-12 lg:pr-16"
+            data-image="https://images.unsplash.com/photo-1666779315500-b50f0f5a5921?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <!-- OVERLAY -->
+            <div
+              class="overlay h-full w-0 absolute bg-(--g-color) rounded-3xl group-hover:w-full top-0 left-0 transition-all duration-500 ease pointer-events-none"
+            ></div>
+
+            <!-- TEXT -->
+            <div
+              class="flex items-center gap-6 sm:gap-10 md:gap-14 lg:gap-20 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-medium font-manorope relative z-10 group-hover:text-black group-hover:pl-4 sm:group-hover:pl-10 md:group-hover:pl-16 lg:group-hover:pl-20 transition-all duration-300 ease"
+            >
+              <h2>01.</h2>
+              <h2>Brand strategy & Positioning</h2>
+            </div>
+
+            <!-- ICON -->
+            <div
+              class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full relative z-10 flex items-center justify-center group-hover:bg-black transition-all duration-300"
+            >
+              <img
+                class="-rotate-45 group-hover:rotate-0 transition-all duration-500 ease w-4 sm:w-5 md:w-6"
+                src="./Images/arrow-icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="elem w-full h-24 sm:h-28 md:h-32 lg:h-36 xl:h-40 relative border-t border-gray-600 flex items-center justify-between group pr-4 sm:pr-8 md:pr-12 lg:pr-16"
+            data-image="https://images.unsplash.com/photo-1746364840695-1a539c9acd14?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <!-- OVERLAY -->
+            <div
+              class="overlay h-full w-0 absolute bg-(--g-color) rounded-3xl group-hover:w-full top-0 left-0 transition-all duration-500 ease pointer-events-none"
+            ></div>
+
+            <!-- TEXT -->
+            <div
+              class="flex items-center gap-6 sm:gap-10 md:gap-14 lg:gap-20 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-medium font-manorope relative z-10 group-hover:text-black group-hover:pl-4 sm:group-hover:pl-10 md:group-hover:pl-16 lg:group-hover:pl-20 transition-all duration-300 ease"
+            >
+              <h2>04.</h2>
+              <h2>Market & Competitor research</h2>
+            </div>
+
+            <!-- ICON -->
+            <div
+              class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full relative z-10 flex items-center justify-center group-hover:bg-black transition-all duration-300"
+            >
+              <img
+                class="-rotate-45 group-hover:rotate-0 transition-all duration-500 ease w-4 sm:w-5 md:w-6"
+                src="./Images/arrow-icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="elem w-full h-24 sm:h-28 md:h-32 lg:h-36 xl:h-40 relative border-t border-gray-600 flex items-center justify-between group pr-4 sm:pr-8 md:pr-12 lg:pr-16"
+            data-image="https://images.unsplash.com/photo-1690896783396-a273052c50c3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <!-- OVERLAY -->
+            <div
+              class="overlay h-full w-0 absolute bg-(--g-color) rounded-3xl group-hover:w-full top-0 left-0 transition-all duration-500 ease pointer-events-none"
+            ></div>
+
+            <!-- TEXT -->
+            <div
+              class="flex items-center gap-6 sm:gap-10 md:gap-14 lg:gap-20 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-medium font-manorope relative z-10 group-hover:text-black group-hover:pl-4 sm:group-hover:pl-10 md:group-hover:pl-16 lg:group-hover:pl-20 transition-all duration-300 ease"
+            >
+              <h2>05.</h2>
+              <h2>Campaign Strategy & Planning</h2>
+            </div>
+
+            <!-- ICON -->
+            <div
+              class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full relative z-10 flex items-center justify-center group-hover:bg-black transition-all duration-300"
+            >
+              <img
+                class="-rotate-45 group-hover:rotate-0 transition-all duration-500 ease w-4 sm:w-5 md:w-6"
+                src="./Images/arrow-icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- flow-bar  -->
+
+      <div class="flow-bar w-full py-20">
+        <div class="moving-text text-[4vw] text-white font-manrope font-medium">
+          <div class="con whitespace-nowrap">
+            <h1>COPY WRITING</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+            <h1>WEB DESIGN</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+            <h1>CONTENT</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+          </div>
+          <div class="con">
+            <h1>COPY WRITING</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+            <h1>WEB DESIGN</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+            <h1>CONTENT</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+          </div>
+          <div class="con">
+            <h1>COPY WRITING</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+            <h1>WEB DESIGN</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+            <h1>CONTENT</h1>
+            <div
+              class="gola w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12 2xl:w-16 2xl:h-16 bg-(--g-color) rounded-full"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 4  -->
+
+      <div
+        class="page-4 w-full relative min-h-screen px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-56 py-12"
+      >
+        <div class="flex items-center justify-start flex-col">
+          <div class="flex items-center gap-2">
+            <h3 class="w-3 h-3 bg-(--g-color) rounded-full"></h3>
+            <h3 class="text-white font-normal">FAQS</h3>
+          </div>
+
+          <h2
+            class="mt-3 text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white tracking-tighter font-sans"
+          >
+            Have Questions in Your Mind? <br />
+            Get the
+            <span class="font-serif text-(--g-color)"><i>Answers Now</i></span>
+          </h2>
+
+          <div
+            class="faq-section mt-6 flex flex-col lg:flex-row gap-4 sm:gap-5 md:gap-6 lg:gap-8 w-full"
+          >
+            <!-- LEFT -->
+            <div
+              class="left w-full lg:w-1/2 h-full text-white flex flex-col items-center gap-4 sm:gap-5 md:gap-6"
+            >
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    01. What services does your digital agency offer?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content.
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    02. How do you approach a new project?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    03. What industries do you specialize in?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    04. How long does it take to complete a project?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div
+              class="right w-full lg:w-1/2 h-full text-white flex flex-col items-center gap-4 sm:gap-5 md:gap-6"
+            >
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    05. Do you offer custom website or app development?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    06. What is your pricing model or cost structure?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    07. Can you help with ongoing support?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="faq-box border border-gray-500 shadow-(--shadow-inset) p-4 sm:p-5 md:p-6 lg:p-8 w-full rounded-xl"
+              >
+                <div
+                  class="accordion-item-header flex justify-between items-start"
+                >
+                  <h3 class="text-base sm:text-lg md:text-xl lg:text-2xl">
+                    08. Do you work with startups?
+                  </h3>
+                  <div
+                    class="icon w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 bg-[#151515] rounded-full shadow-(--shadow-inset) flex items-center justify-center"
+                  ></div>
+                </div>
+
+                <div
+                  class="mt-3 max-h-0 overflow-hidden transition-all duration-300"
+                >
+                  <h4 class="text-xs sm:text-sm md:text-base text-white">
+                    It is a long established fact that a reader will be
+                    distracted.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 5  -->
+
+      <div
+        class="page-5 w-full py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 flex items-center justify-center relative z-50"
+      >
+        <!-- BACKGROUND GLOW -->
+
+        <!-- CARDS WRAPPER -->
+        <div
+          class="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 font-manrope"
+        >
+          <!-- CARD -->
+          <div
+            class="flex items-start justify-around flex-col px-6 sm:px-8 md:px-10 relative h-64 sm:h-72 md:h-80 lg:h-88 w-60 sm:w-64 md:w-72 border border-green-900 rounded-xl group overflow-hidden -rotate-3 sm:-rotate-6 bg-[radial-gradient(circle_at_bottom_right,rgba(132,255,0,0.25),transparent_60%),radial-gradient(circle_at_right,rgba(132,255,0,0.2),transparent_60%)]"
+          >
+            <div
+              class="w-full h-0 bg-(--g-color) group-hover:h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease pointer-events-none"
+            ></div>
+
+            <h1
+              class="text-white font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl relative z-40 group-hover:text-black"
+            >
+              1500
+            </h1>
+
+            <h3
+              class="text-sm sm:text-base md:text-lg lg:text-xl text-(--g-color) relative z-40 group-hover:text-black"
+            >
+              Years Of Experience
+            </h3>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="flex items-start justify-around flex-col px-6 sm:px-8 md:px-10 relative h-64 sm:h-72 md:h-80 lg:h-88 w-60 sm:w-64 md:w-72 border border-green-900 rounded-xl group overflow-hidden rotate-3 sm:rotate-6 bg-[radial-gradient(circle_at_bottom_right,rgba(132,255,0,0.25),transparent_60%),radial-gradient(circle_at_right,rgba(132,255,0,0.2),transparent_60%)]"
+          >
+            <div
+              class="w-full h-0 bg-(--g-color) group-hover:h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease pointer-events-none"
+            ></div>
+
+            <h1
+              class="text-white font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl relative z-40 group-hover:text-black"
+            >
+              40+
+            </h1>
+
+            <h3
+              class="text-sm sm:text-base md:text-lg lg:text-xl text-(--g-color) relative z-40 group-hover:text-black"
+            >
+              Countries In Services
+            </h3>
+          </div>
+
+          <div
+            class="flex items-start justify-around flex-col px-6 sm:px-8 md:px-10 relative h-64 sm:h-72 md:h-80 lg:h-88 w-60 sm:w-64 md:w-72 border border-green-900 rounded-xl group overflow-hidden -rotate-3 sm:-rotate-6 bg-[radial-gradient(circle_at_bottom_right,rgba(132,255,0,0.25),transparent_60%),radial-gradient(circle_at_right,rgba(132,255,0,0.2),transparent_60%)]"
+          >
+            <div
+              class="w-full h-0 bg-(--g-color) group-hover:h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease pointer-events-none"
+            ></div>
+
+            <h1
+              class="text-white font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl relative z-40 group-hover:text-black"
+            >
+              30%
+            </h1>
+
+            <h3
+              class="text-sm sm:text-base md:text-lg lg:text-xl text-(--g-color) relative z-40 group-hover:text-black"
+            >
+              Increase In Productivity
+            </h3>
+          </div>
+
+          <div
+            class="flex items-start justify-around flex-col px-6 sm:px-8 md:px-10 relative h-64 sm:h-72 md:h-80 lg:h-88 w-60 sm:w-64 md:w-72 border border-green-900 rounded-xl group overflow-hidden rotate-3 sm:rotate-6 bg-[radial-gradient(circle_at_bottom_right,rgba(132,255,0,0.25),transparent_60%),radial-gradient(circle_at_right,rgba(132,255,0,0.2),transparent_60%)]"
+          >
+            <div
+              class="w-full h-0 bg-(--g-color) group-hover:h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease pointer-events-none"
+            ></div>
+
+            <h1
+              class="text-white font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl relative z-40 group-hover:text-black"
+            >
+              20k
+            </h1>
+
+            <h3
+              class="text-sm sm:text-base md:text-lg lg:text-xl text-(--g-color) relative z-40 group-hover:text-black"
+            >
+              Project Completed
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 6  -->
+      <div
+        class="min-h-screen w-full relative bg-cover bg-center"
+        style="background-image: url(&quot;./Images/ContactImage.jpg&quot;)"
+      >
+        <!-- IMAGE -->
+        <div class="w-full bg-cover bg-center bg-red-900"></div>
+
+        <!-- OVERLAY -->
+        <div
+          class="overlay flex flex-col lg:flex-row items-center lg:justify-between w-full min-h-screen bg-black/70 top-0 left-0 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-60 pt-16 sm:pt-20 md:pt-24 lg:pt-0 gap-8 text-center lg:text-left"
+        >
+          <!-- LEFT -->
+          <div
+            class="left w-full lg:w-1/2 lg:h-[50vh] flex flex-col justify-between"
+          >
+            <div>
+              <!-- 🔥 FIX (center align) -->
+              <div
+                class="flex gap-2 items-center justify-center lg:justify-start"
+              >
+                <div
+                  class="w-3 h-3 sm:w-4 sm:h-4 bg-(--g-color) rounded-full"
+                ></div>
+                <h3 class="text-white text-sm sm:text-base">GET IN TOUCH</h3>
+              </div>
+
+              <h2
+                class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-manrope text-white tracking-tight mt-2 text-center lg:text-left"
+              >
+                Success is a team <br />
+                effort
+                <span class="font-serif text-(--g-color)">
+                  <i
+                    >let's achieve it <br />
+                    together</i
+                  >
+                </span>
+              </h2>
+            </div>
+
+            <div class="mt-6 lg:mt-0">
+              <h3
+                class="text-lg sm:text-xl md:text-2xl font-medium text-[#868686]"
+              >
+                needhelp@company.com
+              </h3>
+              <h2
+                class="text-xl sm:text-2xl md:text-3xl font-bold font-manrope text-white mt-3 sm:mt-5"
+              >
+                (+123) 456789 00
+              </h2>
+            </div>
+          </div>
+
+          <!-- RIGHT FORM -->
+          <div
+            class="right-form w-3/4 h-auto lg:w-auto bg-(--g-color) py-10 sm:py-12 md:py-14 lg:py-16 px-6 sm:px-8 md:px-10 rounded-2xl lg:rounded-4xl mt-4"
+          >
+            <div class="max-w-md w-full space-y-6 text-left">
+              <h2
+                class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800"
+              >
+                Get In Touch
+              </h2>
+
+              <form
+                class="py-6 sm:py-8 px-4 sm:px-6 shadow rounded-lg space-y-4 sm:space-y-5 text-left"
+              >
+                <div class="space-y-4 md:flex md:space-x-2 md:space-y-0">
+                  <div class="w-full">
+                    <label
+                      class="block text-sm sm:text-base md:text-lg font-medium text-gray-950"
+                      >First Name</label
+                    >
+                    <input
+                      type="text"
+                      class="px-3 py-2 w-full border-b border-gray-500 focus:outline-none"
+                    />
+                  </div>
+
+                  <div class="w-full">
+                    <label
+                      class="block text-sm sm:text-base md:text-lg font-medium text-gray-950"
+                      >Last Name</label
+                    >
+                    <input
+                      type="text"
+                      class="px-3 py-2 w-full border-b border-gray-500 focus:outline-none"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label
+                    class="block text-sm sm:text-base md:text-lg font-medium text-gray-950"
+                    >Email Address</label
+                  >
+                  <input
+                    type="text"
+                    class="px-3 py-2 w-full border-b border-gray-500 focus:outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    class="block text-sm sm:text-base md:text-lg font-medium text-gray-950"
+                    >Mobile No.</label
+                  >
+                  <input
+                    type="text"
+                    class="px-3 py-2 w-full border-b border-gray-500 focus:outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    class="block text-sm sm:text-base md:text-lg font-medium text-gray-950"
+                    >Password</label
+                  >
+                  <input
+                    type="text"
+                    class="px-3 py-2 w-full border-b border-gray-500 focus:outline-none"
+                  />
+                </div>
+
+                <button
+                  class="w-full sm:w-auto px-6 sm:px-8 py-2 bg-black text-white rounded shadow-lg hover:bg-green-600"
+                >
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- page 7  -->
+
+      <div
+        class="page-7 w-full min-h-screen text-white px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32 2xl:px-56 py-12 sm:py-16 md:py-20"
+      >
+        <div class="flex items-center justify-start flex-col">
+          <div class="flex items-center gap-2">
+            <h3 class="w-3 h-3 bg-(--g-color) rounded-full"></h3>
+            <h3 class="text-white font-normal text-sm sm:text-base">
+              LATEST NEWS
+            </h3>
+          </div>
+
+          <h2
+            class="mt-3 text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-white tracking-tighter font-sans"
+          >
+            Check Out Latest News <br />
+            Update
+            <span class="font-serif text-(--g-color)">
+              <i>& Articales</i>
+            </span>
+          </h2>
+
+          <!-- CARDS -->
+          <div
+            class="w-full mt-6 flex flex-col md:flex-row flex-wrap gap-6 p-2 sm:p-4 md:p-6"
+          >
+            <!-- CARD -->
+            <div
+              class="w-full md:w-[48%] xl:w-[32%] p-3 sm:p-4 flex flex-col gap-4"
+            >
+              <div
+                class="h-[220px] sm:h-[360px] md:h-[280px] lg:h-[300px] xl:h-[320px] 2xl:h-3/4 w-full overflow-hidden rounded-3xl sm:rounded-4xl relative"
+              >
+                <img
+                  src="./Images/news1-1.jpg"
+                  class="w-full h-full object-cover hover:scale-110 transition-all duration-300 ease"
+                  alt=""
+                />
+                <div
+                  class="bg-black py-2 sm:py-3 px-4 sm:px-6 rounded-3xl sm:rounded-4xl text-(--g-color) tracking-tight absolute bottom-4 left-4 text-xs sm:text-sm"
+                >
+                  UX DESIGN <span class="text-white">/ ADMIN</span>
+                </div>
+              </div>
+
+              <h2
+                class="text-lg sm:text-2xl md:text-xl font-semibold hover:text-(--g-color) hover:underline transition-all duration-300 ease"
+              >
+                The Ultimate Guide To Content <br />
+                Marketing For Businesses
+              </h2>
+
+              <div class="flex items-center gap-2 sm:gap-3 group w-fit">
+                <button
+                  class="text-base sm:text-xl md:text-xl py-2 rounded group-hover:text-(--g-color)"
+                >
+                  Read More
+                </button>
+                <i
+                  class="ri-arrow-right-line text-base sm:text-xl group-hover:text-(--g-color) group-hover:rotate-90 transition-all duration-200 ease"
+                ></i>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div
+              class="w-full md:w-[48%] xl:w-[32%] p-3 sm:p-4 flex flex-col gap-4"
+            >
+              <div
+                class="h-[220px] sm:h-[360px] md:h-[280px] lg:h-[300px] xl:h-[320px] 2xl:h-3/4 w-full overflow-hidden rounded-3xl sm:rounded-4xl relative"
+              >
+                <img
+                  src="./Images/news1-2.jpg"
+                  class="w-full h-full object-cover hover:scale-110 transition-all duration-300 ease"
+                  alt=""
+                />
+                <div
+                  class="bg-black py-2 sm:py-3 px-4 sm:px-6 rounded-3xl sm:rounded-4xl text-(--g-color) tracking-tight absolute bottom-4 left-4 text-xs sm:text-sm"
+                >
+                  UX DESIGN <span class="text-white">/ ADMIN</span>
+                </div>
+              </div>
+
+              <h2
+                class="text-lg sm:text-2xl md:text-xl font-semibold hover:text-(--g-color) hover:underline transition-all duration-300 ease"
+              >
+                The Ultimate Guide To Content <br />
+                Marketing For Businesses
+              </h2>
+
+              <div class="flex items-center gap-2 sm:gap-3 group w-fit">
+                <button
+                  class="text-base sm:text-xl md:text-xl py-2 rounded group-hover:text-(--g-color)"
+                >
+                  Read More
+                </button>
+                <i
+                  class="ri-arrow-right-line text-base sm:text-xl group-hover:text-(--g-color) group-hover:rotate-90 transition-all duration-200 ease"
+                ></i>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div
+              class="w-full md:w-[48%] xl:w-[32%] p-3 sm:p-4 flex flex-col gap-4"
+            >
+              <div
+                class="h-[220px] sm:h-[360px] md:h-[280px] lg:h-[300px] xl:h-[320px] 2xl:h-3/4 w-full overflow-hidden rounded-3xl sm:rounded-4xl relative"
+              >
+                <img
+                  src="./Images/news1-3.jpg"
+                  class="w-full h-full object-cover hover:scale-110 transition-all duration-300 ease"
+                  alt=""
+                />
+                <div
+                  class="bg-black py-2 sm:py-3 px-4 sm:px-6 rounded-3xl sm:rounded-4xl text-(--g-color) tracking-tight absolute bottom-4 left-4 text-xs sm:text-sm"
+                >
+                  UX DESIGN <span class="text-white">/ ADMIN</span>
+                </div>
+              </div>
+
+              <h2
+                class="text-lg sm:text-2xl md:text-xl font-semibold hover:text-(--g-color) hover:underline transition-all duration-300 ease"
+              >
+                The Ultimate Guide To Content <br />
+                Marketing For Businesses
+              </h2>
+
+              <div class="flex items-center gap-2 sm:gap-3 group w-fit">
+                <button
+                  class="text-base sm:text-xl md:text-xl py-2 rounded group-hover:text-(--g-color)"
+                >
+                  Read More
+                </button>
+                <i
+                  class="ri-arrow-right-line text-base sm:text-xl group-hover:text-(--g-color) group-hover:rotate-90 transition-all duration-200 ease"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- page 8  -->
+
+      <div
+        class="page-8 w-full min-h-screen text-white py-10 sm:py-14 md:py-16 lg:py-20 px-4 sm:px-8 md:px-12 lg:px-20 2xl:px-48"
+      >
+        <div
+          class="w-full h-auto lg:h-[105vh] rounded-3xl sm:rounded-4xl overflow-hidden"
+        >
+          <!-- TOP BAR -->
+          <div
+            class="h-auto lg:h-[23vh] bg-(--g-color) w-full flex flex-col lg:flex-row gap-6 lg:gap-0 px-6 sm:px-10 md:px-16 lg:px-24 2xl:px-48 py-10 lg:py-0 items-center justify-between"
+          >
+            <h2
+              class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black font-manrope tracking-tight font-medium text-center lg:text-left"
+            >
+              Let's Start a Project
+            </h2>
+
+            <div
+              class="bg-[#161616] w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full flex items-center justify-center"
+            >
+              <i
+                class="ri-arrow-right-up-line text-white text-2xl sm:text-3xl md:text-4xl"
+              ></i>
+            </div>
+          </div>
+
+          <!-- MAIN FOOTER -->
+          <div
+            class="w-full h-auto lg:h-screen 2xl:h-[70vh] bg-[#121310] px-6 sm:px-10 md:px-16 lg:px-24 2xl:px-48 py-10 flex flex-col lg:flex-row gap-12 lg:gap-0 items-center justify-between relative"
+          >
+            <img
+              class="absolute bottom-0 right-0 w-40 sm:w-52 md:w-64 lg:w-auto"
+              src="./Images/footer1-shape-1.png"
+              alt=""
+            />
+            <img
+              class="absolute bottom-0 left-0 w-40 sm:w-52 md:w-64 lg:w-auto"
+              src="./Images/footer-shape1-2.png"
+              alt=""
+            />
+
+            <div
+              class="w-full flex flex-col lg:flex-row justify-between gap-12 relative z-40"
+            >
+              <!-- LEFT -->
+              <div class="flex flex-col justify-between gap-6 sm:gap-8">
+                <img
+                  class="w-32 sm:w-36 md:w-40 h-auto"
+                  src="./Images/logo.png"
+                  alt=""
+                />
+
+                <h3 class="text-[#696A68] font-medium text-base sm:text-lg">
+                  Through critical analysis and creative inquiry, <br />
+                  our mission is to understand the <br />
+                  complexities human.
+                </h3>
+
+                <div class="flex flex-wrap gap-2 sm:gap-0">
+                  <button
+                    class="py-4 sm:py-5 px-4 sm:px-5 bg-black border border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl"
+                  >
+                    <i class="ri-twitter-x-line text-xl sm:text-2xl"></i>
+                  </button>
+
+                  <button
+                    class="py-4 sm:py-5 px-4 sm:px-5 bg-black border border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl -ml-3 sm:-ml-3"
+                  >
+                    <i class="ri-facebook-fill text-xl sm:text-2xl"></i>
+                  </button>
+
+                  <button
+                    class="py-4 sm:py-5 px-4 sm:px-5 bg-black border border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl -ml-3 sm:-ml-3"
+                  >
+                    <i class="ri-pinterest-line text-xl sm:text-2xl"></i>
+                  </button>
+
+                  <button
+                    class="py-4 sm:py-5 px-4 sm:px-5 bg-black border border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl -ml-3 sm:-ml-3"
+                  >
+                    <i class="ri-instagram-line text-xl sm:text-2xl"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- QUICK LINKS -->
+              <div class="flex flex-col gap-4 sm:gap-6 font-manrope">
+                <h2 class="text-white text-2xl sm:text-3xl font-bold">
+                  Quick Links
+                </h2>
+
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg xl:text-xl">Home</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">About Us</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">Services</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">Portfolio</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">Contact Us</h4>
+                </div>
+              </div>
+
+              <!-- SERVICES -->
+              <div class="flex flex-col gap-4 sm:gap-6 font-manrope">
+                <h2 class="text-white text-2xl sm:text-3xl font-bold">
+                  Our Services
+                </h2>
+
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">Mobile & App Design</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">Branding & Identity</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">Consultation</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">UI/UX Design</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <h5 class="w-2 h-2 rounded-full bg-[#D9D9D9]"></h5>
+                  <h4 class="text-base sm:text-lg">System Creation</h4>
+                </div>
+              </div>
+
+              <!-- SOCIAL -->
+              <div
+                class="flex flex-col items-start lg:items-center gap-4 sm:gap-6 font-manrope relative z-40"
+              >
+                <h2 class="text-white text-2xl sm:text-3xl font-bold">
+                  Stay with us
+                </h2>
+
+                <div class="mt-2 sm:mt-4 flex flex-col gap-2">
+                  <div
+                    class="py-2 sm:py-3 px-4 sm:px-6 text-center cursor-pointer bg-black border -mb-3 border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl text-lg sm:text-xl"
+                  >
+                    Behance
+                  </div>
+                  <div
+                    class="py-2 sm:py-3 px-4 sm:px-6 text-center cursor-pointer bg-black border -mb-3 border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl text-lg sm:text-xl"
+                  >
+                    Upwork
+                  </div>
+                  <div
+                    class="py-2 sm:py-3 px-4 sm:px-6 text-center cursor-pointer bg-black border -mb-3 border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl text-lg sm:text-xl"
+                  >
+                    Dribbble
+                  </div>
+                  <div
+                    class="py-2 sm:py-3 px-4 sm:px-6 text-center cursor-pointer bg-black border -mb-3 border-[#2c2c2b] hover:text-black transition-all duration-300 ease hover:bg-(--g-color) rounded-2xl text-lg sm:text-xl"
+                  >
+                    Fiverr
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BOTTOM BAR -->
+          <div
+            class="w-full bg-black h-auto lg:h-[12vh] text-[#898989] flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-between font-medium text-lg sm:text-xl px-6 sm:px-10 md:px-16 lg:px-24 2xl:px-48 py-6 lg:py-0"
+          >
+            <h3>@ Copyright Reserved by Digilink</h3>
+            <h3>Privacy Policy | Term of Service</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

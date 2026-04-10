@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Manrope:wght@200..800&family=Playwrite+IE:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root{
+    --box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    --g-color: #D9F45F;
+}
+
+
+
+.font-manrope{
+    font-family: 'Manrope', sans-serif;
+}
+
+.font-dancing-script{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+.moving-img {
+  position: absolute;
+   /* left-10 */
+  
+  transform: translateY(-50%);
+  transform-origin: center;
+  animation: swing 3s ease-in-out infinite;
+}
+
+@keyframes swing {
+  0% {
+    transform: translateY(-50%) rotate(-10deg);
+  }
+  50% {
+    transform: translateY(-50%) rotate(10deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(-10deg);
+  }
+}
+
+
+
+.icon:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background-color:white ;
+  border-radius: 20px;
+  pointer-events: all;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  background-color: white;
+  font-weight: 800;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* JavaScript  */
+
+.accordion-item-header.active .icon:before {
+  transform: rotate(180deg);
+}
+
+.accordion-item-header.active .icon:after {
+  transform: rotate(90deg);
+}
+
+
+
+.moving-text{
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.moving-text::-webkit-scrollbar{
+  display: none;
+}
+
+
+.con{
+  white-space: nowrap;
+  display: inline-block;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.moving-text h1{
+  display: inline-block;
+}
+
+.moving-text h1:hover{
+  color: #D9F45F;
+  cursor: pointer;
+}
+
+.gola{
+  display: inline-block;
+  margin: 0 2vw;
+}
+
+@keyframes move {
+  from{
+    transfom: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+  
+}
+
